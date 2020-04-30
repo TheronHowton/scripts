@@ -36,7 +36,7 @@ $date = Get-Date -Format yyyyHHdd-hhmm
 $policies = Get-IntuneDeviceConfigurationPolicy
 $dataTypes = $policies | select '@odata.type'
 
-# Check for Outpur directory, create if $false.
+# Check for Output directory, create if $false.
 If(!(Test-Path $PSScriptRoot\Output)){New-Item -ItemType Directory -Path $PSScriptRoot\Output | Out-Null}
 $outputPath = "$PSScriptRoot\Output"
 
