@@ -2,7 +2,7 @@
 
 Use this script to get all Intune policies to compare them based on 'Profile Type'.
 
-Useage:
+Usage:
 Change to the directory the script is in and execute.
 
 Requirements:
