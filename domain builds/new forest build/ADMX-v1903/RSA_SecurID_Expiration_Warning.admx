@@ -1,0 +1,43 @@
+<policyDefinitions revision="1.0" schemaVersion="1.0">
+  <policyNamespaces>
+    <target prefix="fullarmor" namespace="FullArmor.Policies.A7B9E7C0_8751_4F39_9AC2_B8546E180C5E" />
+    <using prefix="windows" namespace="Microsoft.Policies.Windows" />
+  </policyNamespaces>
+  <supersededAdm fileName="\\102\share\RSA\Policy Templates\EditedMDX\RSA_SecurID_Expiration_Warning.adm" />
+  <resources minRequiredRevision="1.0" />
+  <supportedOn>
+    <definitions>
+      <definition name="SUPPORTED_VISTA" displayName="$(string.SUPPORTED_VISTA)" />
+      <definition name="SUPPORTED_NotSpecified" displayName="$(string.ADMXMigrator_NoSupportedOn)" />
+    </definitions>
+  </supportedOn>
+  <categories>
+    <category name="RSA_DESKTOP" displayName="$(string.RSA_DESKTOP)" />
+    <category name="EXPIRED_TOKEN_WARNING" displayName="$(string.EXPIRED_TOKEN_WARNING)">
+      <parentCategory ref="RSA_DESKTOP" />
+    </category>
+  </categories>
+  <policies>
+    <policy name="EXPIRED_TOKEN_WARNING" class="Machine" displayName="$(string.EXPIRED_TOKEN_WARNING)" explainText="$(string.EXPIRED_TOKEN_WARNING_DESCRIPTION)" presentation="$(presentation.EXPIRED_TOKEN_WARNING)" key="SOFTWARE\Policies\RSA\RSA Desktop\RSA SecurID Authenticator">
+      <parentCategory ref="EXPIRED_TOKEN_WARNING" />
+      <supportedOn ref="SUPPORTED_VISTA" />
+      <enabledList>
+        <item key="SOFTWARE\Policies\RSA\RSA Desktop\RSA SecurID Authenticator" valueName="Enabled">
+          <value>
+            <decimal value="1" />
+          </value>
+        </item>
+      </enabledList>
+      <disabledList>
+        <item key="SOFTWARE\Policies\RSA\RSA Desktop\RSA SecurID Authenticator" valueName="Enabled">
+          <value>
+            <decimal value="0" />
+          </value>
+        </item>
+      </disabledList>
+      <elements>
+        <decimal id="EXPIRED_TOKEN_WARNING_LABEL" valueName="Expiration Warning" />
+      </elements>
+    </policy>
+  </policies>
+</policyDefinitions>

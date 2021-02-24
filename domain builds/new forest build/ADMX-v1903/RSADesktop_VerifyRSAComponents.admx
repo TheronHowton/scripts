@@ -1,0 +1,40 @@
+<policyDefinitions revision="1.0" schemaVersion="1.0">
+  <policyNamespaces>
+    <target prefix="fullarmor" namespace="FullArmor.Policies.B70AAE2E_E887_45AB_8235_37A64637DD6A" />
+    <using prefix="windows" namespace="Microsoft.Policies.Windows" />
+  </policyNamespaces>
+  <supersededAdm fileName="\\102\share\RSA\Policy Templates\EditedMDX\RSADesktop_VerifyRSAComponents.adm" />
+  <resources minRequiredRevision="1.0" />
+  <supportedOn>
+    <definitions>
+      <definition name="SUPPORTED_VISTA" displayName="$(string.SUPPORTED_VISTA)" />
+      <definition name="SUPPORTED_NotSpecified" displayName="$(string.ADMXMigrator_NoSupportedOn)" />
+    </definitions>
+  </supportedOn>
+  <categories>
+    <category name="RSA_DESKTOP" displayName="$(string.RSA_DESKTOP)" />
+    <category name="COMMON_SETTINGS" displayName="$(string.COMMON_SETTINGS)">
+      <parentCategory ref="RSA_DESKTOP" />
+    </category>
+  </categories>
+  <policies>
+    <policy name="VERIFY_CODE_SIGNATURE_TITLE" class="Machine" displayName="$(string.VERIFY_CODE_SIGNATURE_TITLE)" explainText="$(string.VERIFY_CODE_SIGNATURE_DESCRIPTION)" presentation="$(presentation.VERIFY_CODE_SIGNATURE_TITLE)" key="SOFTWARE\Policies\RSA\RSA Desktop\Common Settings">
+      <parentCategory ref="COMMON_SETTINGS" />
+      <supportedOn ref="SUPPORTED_VISTA" />
+      <elements>
+        <enum id="VERIFY_CODE_SIGNATURE_LABEL" valueName="VERIFY_CODE_SIGNATURE_VALUE_NAME">
+          <item displayName="$(string.VERIFY_CODE_SIGNATURE_VERIFY_OFF)">
+            <value>
+              <decimal value="0" />
+            </value>
+          </item>
+          <item displayName="$(string.VERIFY_CODE_SIGNATURE_VERIFY_ON)">
+            <value>
+              <decimal value="1" />
+            </value>
+          </item>
+        </enum>
+      </elements>
+    </policy>
+  </policies>
+</policyDefinitions>

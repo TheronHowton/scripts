@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<policyDefinitions revision="1.0" schemaVersion="1.0">
+  <policyNamespaces>
+    <target prefix="fullarmor" namespace="FullArmor.73d3783a-b8b5-401e-bc26-8d2bee6d7cda" />
+    <using prefix="windows" namespace="Microsoft.Policies.Windows" />
+  </policyNamespaces>
+  <supersededAdm fileName="\\102\share\RSA\Policy Templates\RSACredProviderFilter_SmartCard.adm" />
+  <resources minRequiredRevision="1.0" />
+  <supportedOn>
+    <definitions>
+      <definition name="SUPPORTED_VISTA" displayName="$(string.SUPPORTED_VISTA)" />
+      <definition name="SUPPORTED_NotSpecified" displayName="$(string.ADMXMigrator_NoSupportedOn)" />
+    </definitions>
+  </supportedOn>
+  <categories>
+    <category name="RSA_DESKTOP" displayName="$(string.RSA_DESKTOP)" />
+    <category name="CRED_PROVIDER_FILTER_SETTINGS" displayName="$(string.CRED_PROVIDER_FILTER_SETTINGS)">
+      <parentCategory ref="RSA_DESKTOP" />
+    </category>
+  </categories>
+  <policies>
+    <policy name="FILTER_RSA_SMARTCARD_CRED_PROVIDER_TITLE" class="Machine" displayName="$(string.FILTER_RSA_SMARTCARD_CRED_PROVIDER_TITLE)" explainText="$(string.FILTER_RSA_SMARTCARD_CRED_PROVIDER_DESCRIPTION)" presentation="$(presentation.FILTER_RSA_SMARTCARD_CRED_PROVIDER_TITLE)" key="SOFTWARE\Policies\RSA\RSA Desktop\Credential Provider Filtering\RSASmartcardCredentialProvider" valueName="ExcludeProvider">
+      <parentCategory ref="CRED_PROVIDER_FILTER_SETTINGS" />
+      <supportedOn ref="SUPPORTED_VISTA" />
+      <enabledValue>
+        <string>1</string>
+      </enabledValue>
+      <disabledValue>
+        <string>0</string>
+      </disabledValue>
+    </policy>
+  </policies>
+</policyDefinitions>

@@ -1,0 +1,876 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<policyDefinitionResources revision="1.0" schemaVersion="1.0">
+  <displayName></displayName>
+  <description></description>
+  <resources>
+    <stringTable>
+      <string id="unknown_0">ActivClient x64</string>
+      <string id="unknown_1">Advanced Diagnostics</string>
+      <string id="unknown_13">Logging</string>
+      <string id="unknown_33">Card Removal Behavior</string>
+      <string id="unknown_40">PIN Management</string>
+      <string id="unknown_81">PIN Caching Service</string>
+      <string id="unknown_120">Certificate Availability</string>
+      <string id="unknown_150">User Console</string>
+      <string id="unknown_269">ActivClient Agent (Notification Area Icon)</string>
+      <string id="unknown_305">Notifications Management</string>
+      <string id="unknown_365">Login Window</string>
+      <string id="unknown_372">Software Auto-Update</string>
+      <string id="unknown_388">Smart Card Auto-Update</string>
+      <string id="unknown_412">Smart Card</string>
+      <string id="unknown_423">Terminal Services</string>
+      <string id="unknown_428">Performances Optimization</string>
+      <string id="unknown_439">Outlook Enhancements</string>
+      <string id="unknown_495">Check Point Secure Authentication Agent API</string>
+      <string id="unknown_2">Email address where the diagnostics report will be sent</string>
+      <string id="unknown_8">Perform smart card diagnostics in Advanced Diagnostics</string>
+      <string id="unknown_14">Activate the log files</string>
+      <string id="unknown_19">Full path to log file</string>
+      <string id="unknown_22">Max log file size in MB</string>
+      <string id="unknown_25">Maximum number of file backups</string>
+      <string id="unknown_28">Enable performance logging for Windows PKI Smart Card Logon</string>
+      <string id="unknown_34">Behavior when the smart card is removed</string>
+      <string id="unknown_41">Display New Card window on card insertion</string>
+      <string id="unknown_46">Display Unlock Card window when a locked card is inserted</string>
+      <string id="unknown_51">Prevent PIN entry shorter than the minimum PIN length</string>
+      <string id="unknown_56">Prevent PIN entry longer than the maximum PIN length</string>
+      <string id="unknown_61">Prevent Change PIN at first use cancellation</string>
+      <string id="unknown_66">Allow PIN verification against the smart card regardless of the PIN length</string>
+      <string id="unknown_71">Prevent users from reusing the current PIN during PIN Change</string>
+      <string id="unknown_76">Allow alphabetic characters in PIN code</string>
+      <string id="unknown_82">Enable PIN caching</string>
+      <string id="unknown_87">Always prompt for the PIN code before performing any private key signature operation</string>
+      <string id="unknown_92">Always prompt for the PIN code before performing any private key decryption operation</string>
+      <string id="unknown_97">Always prompt for the PIN code before performing any other operation</string>
+      <string id="unknown_102">Number of minutes before PIN cache is cleared</string>
+      <string id="unknown_105">Allow per-process PIN caching</string>
+      <string id="unknown_121">Make certificates available to Windows on card insertion</string>
+      <string id="unknown_126">Remove certificates from Windows on logoff</string>
+      <string id="unknown_131">Remove certificates from Windows on smart card removal</string>
+      <string id="unknown_136">Display certificate replacement warning</string>
+      <string id="unknown_141">Configure Windows EFS with smart card certificate</string>
+      <string id="unknown_146">Allow certificate enrollment on behalf of another user</string>
+      <string id="unknown_155">Display reader selection list</string>
+      <string id="unknown_159">Display the Advanced Configuration Manager</string>
+      <string id="unknown_163">Allow deletion of user certificates</string>
+      <string id="unknown_186">Display Advanced Diagnostics</string>
+      <string id="unknown_191">Display Troubleshooting</string>
+      <string id="unknown_196">Display Help</string>
+      <string id="unknown_200">Display Tree View in Explorer Bar</string>
+      <string id="unknown_205">Display Tasks View in Explorer Bar</string>
+      <string id="unknown_233">Allow users to switch between icon and detail view</string>
+      <string id="unknown_246">Allow One-Time Password generation</string>
+      <string id="unknown_251">Allow One-Time Password synchronization</string>
+      <string id="unknown_256">Display User Interface/Toolbar customization</string>
+      <string id="unknown_261">Image displayed on the lower right corner of the List view</string>
+      <string id="unknown_264">Automatically register certificates when imported onto the smart card</string>
+      <string id="unknown_276">Display the One-Time Password window</string>
+      <string id="unknown_280">One-Time Password window duration (in seconds)</string>
+      <string id="unknown_283">Copy One-Time Password to Clipboard</string>
+      <string id="unknown_287">Clipboard One-Time Password expiration (in seconds)</string>
+      <string id="unknown_306">Display Blocked Card Manager message when a smart card with a blocked card manager is inserted</string>
+      <string id="unknown_311">Card Manager blocked message</string>
+      <string id="unknown_314">Display No Smart Card Reader Alert</string>
+      <string id="unknown_319">No Smart Card Reader Alert message</string>
+      <string id="unknown_322">No Smart Card Reader Alert duration (in seconds)</string>
+      <string id="unknown_325">Display Unattended Smart Card Alert</string>
+      <string id="unknown_331">Unattended Smart Card Alert message</string>
+      <string id="unknown_334">Unattended Smart Card Alert duration (in seconds)</string>
+      <string id="unknown_337">Card Auto-Update Alert duration (in seconds)</string>
+      <string id="unknown_340">Display Card Expiration notification</string>
+      <string id="unknown_345">Display Certificate Expiration notification</string>
+      <string id="unknown_350">Default expiration warning message</string>
+      <string id="unknown_353">Default expiration warning period (in days)</string>
+      <string id="unknown_356">Default expiration notification period (in days)</string>
+      <string id="unknown_359">Expiration Warning Help file</string>
+      <string id="unknown_362">Default delay after card insertion for expiration check (in seconds)</string>
+      <string id="unknown_366">Static logon banner - High resolution</string>
+      <string id="unknown_369">Moving logon banner - High resolution</string>
+      <string id="unknown_373">Software automatic update URL</string>
+      <string id="unknown_376">Download path for software update</string>
+      <string id="unknown_379">Number of retries performed when an error occurs</string>
+      <string id="unknown_382">Number of minutes between retries</string>
+      <string id="unknown_385">Number of days before checking for an update</string>
+      <string id="unknown_389">Enable Card Auto-Update</string>
+      <string id="unknown_394">Frequency of update (in days)</string>
+      <string id="unknown_397">Maximum delay for card update check after Windows logon</string>
+      <string id="unknown_399">Maximum delay for card update check after card insertion</string>
+      <string id="unknown_401">CMS server URL</string>
+      <string id="unknown_403">CMS Synchronization Manager timeout (in seconds)</string>
+      <string id="unknown_406">CMS Synchronization Manager retry</string>
+      <string id="unknown_409">CMS MDIDC timeout (in seconds)</string>
+      <string id="unknown_413">Prefer GSC-IS over PIV End Point</string>
+      <string id="unknown_418">Enable smart card discovery information caching</string>
+      <string id="unknown_424">Enable caching of applet selection</string>
+      <string id="unknown_429">Disable the certificate caching on card insertion</string>
+      <string id="unknown_434">Disable the card auto registration on card insertion</string>
+      <string id="unknown_440">Setup email certificates in Outlook on card insertion</string>
+      <string id="unknown_445">Check CRL for Outlook security profile creation and Publish to GAL</string>
+      <string id="unknown_451">Check CRL timeout for Outlook security profile creation and Publish to GAL</string>
+      <string id="unknown_453">Enable audit for Outlook security profile creation and Publish to GAL</string>
+      <string id="unknown_455">Allow different email addresses in smart card certificate and Exchange account</string>
+      <string id="unknown_458">Automatically publish certificates to the Global Address List</string>
+      <string id="unknown_463">Encrypt contents and attachments for outgoing messages</string>
+      <string id="unknown_467">Add digital signature for outgoing messages</string>
+      <string id="unknown_471">Send clear text signed message when sending signed messages</string>
+      <string id="unknown_475">Auto-request return receipt for outgoing emails</string>
+      <string id="unknown_479">Automatically add sender's certificates to Outlook contacts</string>
+      <string id="unknown_484">Outlook Auto-Contact destination folder</string>
+      <string id="unknown_487">Automatically decrypt encrypted emails</string>
+      <string id="unknown_491">Add Outlook security icons to the compose email window</string>
+      <string id="unknown_496">Check Point VPN-1 authentication mode</string>
+      <string id="unknown_501">Authentication server challenge password</string>
+      <string id="unknown_504">Authentication server challenge prompt</string>
+      <string id="unknown_6">Yes</string>
+      <string id="unknown_7">No</string>
+      <string id="unknown_11">Yes</string>
+      <string id="unknown_12">No</string>
+      <string id="unknown_17">Yes</string>
+      <string id="unknown_18">No</string>
+      <string id="unknown_31">Yes</string>
+      <string id="unknown_32">No</string>
+      <string id="unknown_37">No action</string>
+      <string id="unknown_38">Logoff</string>
+      <string id="unknown_39">Lock screen</string>
+      <string id="unknown_44">Yes</string>
+      <string id="unknown_45">No</string>
+      <string id="unknown_49">Yes</string>
+      <string id="unknown_50">No</string>
+      <string id="unknown_54">Yes</string>
+      <string id="unknown_55">No</string>
+      <string id="unknown_59">Yes</string>
+      <string id="unknown_60">No</string>
+      <string id="unknown_64">Yes</string>
+      <string id="unknown_65">No</string>
+      <string id="unknown_69">Yes</string>
+      <string id="unknown_70">No</string>
+      <string id="unknown_74">Yes</string>
+      <string id="unknown_75">No</string>
+      <string id="unknown_79">Yes</string>
+      <string id="unknown_80">No</string>
+      <string id="unknown_85">Yes</string>
+      <string id="unknown_86">No</string>
+      <string id="unknown_90">Yes</string>
+      <string id="unknown_91">No</string>
+      <string id="unknown_95">Yes</string>
+      <string id="unknown_96">No</string>
+      <string id="unknown_100">Yes</string>
+      <string id="unknown_101">No</string>
+      <string id="unknown_108">Yes</string>
+      <string id="unknown_109">No</string>
+      <string id="unknown_111">Yes</string>
+      <string id="unknown_112">No</string>
+      <string id="unknown_114">Yes</string>
+      <string id="unknown_115">No</string>
+      <string id="unknown_118">Yes</string>
+      <string id="unknown_119">No</string>
+      <string id="unknown_124">Yes</string>
+      <string id="unknown_125">No</string>
+      <string id="unknown_129">Yes</string>
+      <string id="unknown_130">No</string>
+      <string id="unknown_134">Yes</string>
+      <string id="unknown_135">No</string>
+      <string id="unknown_139">Yes</string>
+      <string id="unknown_140">No</string>
+      <string id="unknown_144">Yes</string>
+      <string id="unknown_145">No</string>
+      <string id="unknown_148">Yes</string>
+      <string id="unknown_149">No</string>
+      <string id="unknown_153">Yes</string>
+      <string id="unknown_154">No</string>
+      <string id="unknown_157">Yes</string>
+      <string id="unknown_158">No</string>
+      <string id="unknown_161">Yes</string>
+      <string id="unknown_162">No</string>
+      <string id="unknown_166">Yes</string>
+      <string id="unknown_167">No</string>
+      <string id="unknown_170">Yes</string>
+      <string id="unknown_171">No</string>
+      <string id="unknown_173">Yes</string>
+      <string id="unknown_174">No</string>
+      <string id="unknown_177">Yes</string>
+      <string id="unknown_178">No</string>
+      <string id="unknown_180">Yes</string>
+      <string id="unknown_181">No</string>
+      <string id="unknown_184">Yes</string>
+      <string id="unknown_185">No</string>
+      <string id="unknown_189">Yes</string>
+      <string id="unknown_190">No</string>
+      <string id="unknown_194">Yes</string>
+      <string id="unknown_195">No</string>
+      <string id="unknown_198">Yes</string>
+      <string id="unknown_199">No</string>
+      <string id="unknown_203">Yes</string>
+      <string id="unknown_204">No</string>
+      <string id="unknown_208">Yes</string>
+      <string id="unknown_209">No</string>
+      <string id="unknown_212">Yes</string>
+      <string id="unknown_213">No</string>
+      <string id="unknown_216">Yes</string>
+      <string id="unknown_217">No</string>
+      <string id="unknown_219">Yes</string>
+      <string id="unknown_220">No</string>
+      <string id="unknown_223">Yes</string>
+      <string id="unknown_224">No</string>
+      <string id="unknown_227">Yes</string>
+      <string id="unknown_228">No</string>
+      <string id="unknown_231">Yes</string>
+      <string id="unknown_232">No</string>
+      <string id="unknown_236">Yes</string>
+      <string id="unknown_237">No</string>
+      <string id="unknown_240">Yes</string>
+      <string id="unknown_241">No</string>
+      <string id="unknown_244">Yes</string>
+      <string id="unknown_245">No</string>
+      <string id="unknown_249">Yes</string>
+      <string id="unknown_250">No</string>
+      <string id="unknown_254">Yes</string>
+      <string id="unknown_255">No</string>
+      <string id="unknown_259">Yes</string>
+      <string id="unknown_260">No</string>
+      <string id="unknown_267">Yes</string>
+      <string id="unknown_268">No</string>
+      <string id="unknown_271">Yes</string>
+      <string id="unknown_272">No</string>
+      <string id="unknown_274">Yes</string>
+      <string id="unknown_275">No</string>
+      <string id="unknown_278">Yes</string>
+      <string id="unknown_279">No</string>
+      <string id="unknown_285">Yes</string>
+      <string id="unknown_286">No</string>
+      <string id="unknown_291">Yes</string>
+      <string id="unknown_292">No</string>
+      <string id="unknown_294">Yes</string>
+      <string id="unknown_295">No</string>
+      <string id="unknown_297">Yes</string>
+      <string id="unknown_298">No</string>
+      <string id="unknown_300">Yes</string>
+      <string id="unknown_301">No</string>
+      <string id="unknown_303">Yes</string>
+      <string id="unknown_304">No</string>
+      <string id="unknown_309">Yes</string>
+      <string id="unknown_310">No</string>
+      <string id="unknown_317">Yes</string>
+      <string id="unknown_318">No</string>
+      <string id="unknown_328">Never</string>
+      <string id="unknown_329">At log off and screen lock</string>
+      <string id="unknown_330">Only at log off</string>
+      <string id="unknown_343">Yes</string>
+      <string id="unknown_344">No</string>
+      <string id="unknown_348">Yes</string>
+      <string id="unknown_349">No</string>
+      <string id="unknown_392">Yes</string>
+      <string id="unknown_393">No</string>
+      <string id="unknown_416">Yes</string>
+      <string id="unknown_417">No</string>
+      <string id="unknown_421">Yes</string>
+      <string id="unknown_422">No</string>
+      <string id="unknown_426">Yes</string>
+      <string id="unknown_427">No</string>
+      <string id="unknown_432">Yes</string>
+      <string id="unknown_433">No</string>
+      <string id="unknown_437">Yes</string>
+      <string id="unknown_438">No</string>
+      <string id="unknown_443">Yes</string>
+      <string id="unknown_444">No</string>
+      <string id="unknown_448">Disabled</string>
+      <string id="unknown_449">Enabled and enforced</string>
+      <string id="unknown_450">Enabled and not enforced</string>
+      <string id="unknown_456">Yes</string>
+      <string id="unknown_457">No</string>
+      <string id="unknown_461">Yes</string>
+      <string id="unknown_462">No</string>
+      <string id="unknown_465">Yes</string>
+      <string id="unknown_466">No</string>
+      <string id="unknown_469">Yes</string>
+      <string id="unknown_470">No</string>
+      <string id="unknown_473">Yes</string>
+      <string id="unknown_474">No</string>
+      <string id="unknown_477">Yes</string>
+      <string id="unknown_478">No</string>
+      <string id="unknown_482">Yes</string>
+      <string id="unknown_483">No</string>
+      <string id="unknown_489">Yes</string>
+      <string id="unknown_490">No</string>
+      <string id="unknown_493">Yes</string>
+      <string id="unknown_494">No</string>
+      <string id="unknown_499">Synchronous</string>
+      <string id="unknown_500">Challenge/Response</string>
+      <string id="unknown_506">Yes</string>
+      <string id="unknown_507">No</string>
+      <string id="unknown_3">Allows specifying an email address where the diagnostics report will be sent.</string>
+      <string id="unknown_9">Allows performing advanced diagnostics on inserted smart cards.</string>
+      <string id="unknown_15">Allows users to create log files for every action performed by the product. No security sensitive information is logged. This may affect performance and should be activated only when required by Technical Support for troubleshooting purposes.</string>
+      <string id="unknown_20">Configures the full path to the generated log file.</string>
+      <string id="unknown_23">Specifies the maximum size (in megabytes) of the log file. The default size is 5 MB.</string>
+      <string id="unknown_26">Specifies the maximum number of log file backups. The default number is 1.</string>
+      <string id="unknown_29">Enables the creation of entries in the Windows Event Viewer when a Windows PKI Smart Card Logon starts and ends. This is used to troubleshoot Windows PKI Smart Card Logon performance. Caution is needed when the smart card is used for other operations such as email signing or SSL authentication, as incorrect entries might be added in the Windows Event Viewer.</string>
+      <string id="unknown_35">Defines what happens when the user removes the smart card that was used to log on to Windows. You can configure ActivClient to lock the workstation (default behavior), to log off the user, or to not perform any action.</string>
+      <string id="unknown_42">When enabled, users are asked to initialize their smart card as soon as the non-initialized smart card is inserted into the reader. It is advised to disable this setting for deployments with ActivIdentity 4TRESS or ActivID CMS servers, as these products manage the PIN instead of ActivClient.</string>
+      <string id="unknown_47">If the user inserts a locked smart card, the Unlock Card window is displayed automatically. Disable this feature if it does not match your deployment scenarios (for example, if you do not provide a card unlock service via the telephone).</string>
+      <string id="unknown_52">Defines if ActivClient allows users to perform PIN verification with a PIN that is shorter than the minimal PIN length.</string>
+      <string id="unknown_57">Defines if ActivClient allows users to perform PIN verification with a PIN that is longer than the maximum PIN length.</string>
+      <string id="unknown_62">Prevents users from canceling the Change PIN process when using their smart card for the first time.</string>
+      <string id="unknown_67">Defines if, during PIN authentication, ActivClient verifies the entered PIN against the smart card PIN without checking compliance with the PIN length policy first.</string>
+      <string id="unknown_72">Defines if ActivClient allows users to reuse the current PIN as the new PIN during a PIN Change operation.</string>
+      <string id="unknown_77">Allows users to enter alphabetic characters in their PIN code.</string>
+      <string id="unknown_83">Avoids PIN re-authentication requests for every operation by allowing PIN caching. When disabled, PIN caching is handled at the smart card level, PIN re-authentication is needed whenever the smart card requires it.</string>
+      <string id="unknown_88">Forces PIN authentication for any private key signature operation.</string>
+      <string id="unknown_93">Forces PIN authentication for any private key decryption operation.</string>
+      <string id="unknown_98">Forces PIN authentication for any PIN protected operation except for private key signature and private key decryption operations.</string>
+      <string id="unknown_103">Defines the number of minutes before PIN cache is cleared. The default is 15.</string>
+      <string id="unknown_106">Allows users to avoid sharing the PIN cache between Windows processes. When the default (No) setting is applied, all Windows processes running in the same Windows session share the same PIN cache.</string>
+      <string id="unknown_116">Allows users to enable OpenCard optimization. Applications listed in the Optimized PIN caching list can perform several card-based operations in a short time (2 seconds) without the need for multiple PIN prompts.</string>
+      <string id="unknown_122">Turn this feature on if you intend to use certificates with CAPI-enabled applications such as Microsoft Outlook or Microsoft Internet Explorer.</string>
+      <string id="unknown_127">Turn this feature on if you are using a shared Windows account and you do not want to see the certificates from all the users using their smart card on this computer, or if this computer is primarily used to issue smart cards for other users.</string>
+      <string id="unknown_132">Turn this feature on if you are using a shared Windows account and you do not want to see the certificates from all the users using their smart card on this computer, or if this computer is primarily used to issue smart cards for other users.</string>
+      <string id="unknown_137">Allows displaying a warning before replacing the default certificate during certificate download with Internet Explorer.</string>
+      <string id="unknown_142">Enables the automatic configuration of the Encrypting File System feature (Windows Vista and higher) with a smart card certificate after Windows smart card PKI login. This feature automatically selects which certificate will be used for EFS.</string>
+      <string id="unknown_151">Allows users to view the CA certificates stored on their smart card in the User Console.</string>
+      <string id="unknown_164">Allows users to delete user certificates.</string>
+      <string id="unknown_168">Allows users to view their smart card certificates in the User Console.</string>
+      <string id="unknown_175">Allows users to view the personal information (demographic data) available on their smart card in the User Console.</string>
+      <string id="unknown_182">Allows users to make available to Windows, from the User Console, the user certificates that are available on their smart card.</string>
+      <string id="unknown_187">Allows users to access and use the Advanced Diagnostics tool from the User Console standard toolbar.</string>
+      <string id="unknown_192">Allows users to access and use the Troubleshooting Wizard from the User Console standard toolbar.</string>
+      <string id="unknown_201">Allows displaying the Tree View of the Explorer toolbar in the User Console. If disabled, the Tasks View is the only view available. If both the Tasks and Tree views are disabled, the Explorer toolbar is not displayed.</string>
+      <string id="unknown_206">Allows displaying the Tasks View of the Explorer toolbar in the User Console. If disabled, the Tree View is the only view available. If both the Tasks and Tree views are disabled, the Explorer toolbar is not displayed.</string>
+      <string id="unknown_210">Allows users to access the Unlock Card feature in order to unlock their smart card.</string>
+      <string id="unknown_214">Allows users to display their unlock code. Only applicable to standalone smart cards.</string>
+      <string id="unknown_221">Allows users to reset their smart cards. Only applicable to standalone smart cards.</string>
+      <string id="unknown_225">Allows users to access the Check for Card Update feature that checks with ActivID CMS if an update is available for the inserted smart card.</string>
+      <string id="unknown_229">Allows users to setup email certificates in Outlook and to publish certificates to the Global Address List.</string>
+      <string id="unknown_234">Allows users to choose a view type from the Large Icons, Small Icons, List, and Details options. If this option is disabled, users cannot choose the view type; and the User Console then uses Large Icons.</string>
+      <string id="unknown_238">Allows users to import a certificate onto their smart card from the User Console.</string>
+      <string id="unknown_242">Allows users to export certificates from their smart card to a file using the User Console.</string>
+      <string id="unknown_247">Allows users to generate a smart card-based One-Time Password in the User Console.</string>
+      <string id="unknown_252">Allows users to resynchronize the smart card-based One-Time Password credentials in the User Console.</string>
+      <string id="unknown_257">Allows users to customize User Console interface and toolbar.</string>
+      <string id="unknown_262">Allows users to display a customized image as background (lower right corner) for the User Console. Select the path to a 96x143 pixels image in the .bmp format.</string>
+      <string id="unknown_265">Automatically makes certificates available to Windows when imported onto the smart card (using the User Console).</string>
+      <string id="unknown_281">Defines how long (in seconds) the One-Time Password window is displayed.</string>
+      <string id="unknown_288">Defines how long (in seconds) the One-Time Password is available on the Clipboard.</string>
+      <string id="unknown_307">Displays a message when users insert a smart card with the card manager blocked.</string>
+      <string id="unknown_312">Message displayed when users insert a smart card with the Card Manager blocked.</string>
+      <string id="unknown_315">Alerts users if there is no smart card reader connected to the workstation.</string>
+      <string id="unknown_320">Message displayed to users when there is no smart card reader connected to the workstation.</string>
+      <string id="unknown_323">Defines how long (in seconds) the No Smart Card Reader Alert is displayed.</string>
+      <string id="unknown_326">Warns users if their smart card is still inserted in the smart card reader upon log off or screen lock. You can configure ActivClient to notify the user upon log off and screen lock (default behavior), upon log off only, or never. On Windows 2000, XP, 2003, ActivClient offers visual and audio notifications. On Windows Vista and higher, ActivClient offers audio-only notification (a beep).</string>
+      <string id="unknown_332">Message displayed when the user's smart card is still inserted in the smart card reader upon log off, screen lock, or session disconnect. Not available on Windows Vista and higher.</string>
+      <string id="unknown_335">Defines how long (in seconds) the Unattended Smart Card Alert is displayed. Not available on Windows Vista and higher.</string>
+      <string id="unknown_338">Defines how long (in seconds) the Smart Card Update Alert is displayed.</string>
+      <string id="unknown_341">Notifies users when their smart card has expired or will expire soon.</string>
+      <string id="unknown_346">Notifies users when their certificates have expired or will expire soon.</string>
+      <string id="unknown_351">Message displayed when the user's smart card or a user's certificate has expired or will expire soon. Note: To be displayed properly, the message must not exceed 134 characters.</string>
+      <string id="unknown_354">Defines how long (in days) before smart card or certificate expiration the warning should display. The default is 60 days before expiration.</string>
+      <string id="unknown_357">Defines for how long (in days) the card or certificate expiration warning is displayed once the smart card or certificate has expired.</string>
+      <string id="unknown_360">Defines full path to the Expiration Warning dialog box Help file.</string>
+      <string id="unknown_363">Defines how long (in seconds) ActivClient should wait after smart card insertion or Windows logon/unlock before ActivClient checks for smart card or certificate expiration.</string>
+      <string id="unknown_367">Path to a banner (in .bmp format) to be displayed in the Enter PIN window in high resolution mode.</string>
+      <string id="unknown_370">Thin moving line displayed under the banner in the Enter PIN window in high resolution mode.</string>
+      <string id="unknown_374">Network location where ActivClient Auto-Update service will look for the software updates.</string>
+      <string id="unknown_377">Local folder where the software updates are downloaded. The ActivClient Auto-Update service must have read and write permissions for that folder.</string>
+      <string id="unknown_380">Number of times the ActivClient Auto-Update service will attempt to update the software.</string>
+      <string id="unknown_383">Waiting period (in minutes) before the ActivClient Auto-Update service retries to update the software when a failure occurs.</string>
+      <string id="unknown_386">Interval (in days) between checks for software updates.</string>
+      <string id="unknown_390">Enables ActivClient to automatically check if inserted smart cards can be updated with card content updates available in the ActivID Card Management System. Starts the smart card update process if updates are available.</string>
+      <string id="unknown_395">Frequency (in days) of smart card update checks.</string>
+      <string id="unknown_404">Maximum time (in seconds) allocated to check with CMS if smart card updates are available.</string>
+      <string id="unknown_407">Number of attempts to connect to the CMS Synchronization Manager after timeout.</string>
+      <string id="unknown_410">Maximum time (in seconds) allocated to perform a smart card update using CMS My Digital ID Card. When this timeout is reached, the process started to run the browser is terminated.</string>
+      <string id="unknown_414">For smart cards that comply with both the US government GSC-IS and PIV standards, allows specifying which standard takes precedence for the middleware.</string>
+      <string id="unknown_419">Allows performance optimization by caching smart card discovery information. When this option is disabled, the smart card discovery process is repeated at each smart card insertion.</string>
+      <string id="unknown_430">By default, ActivClient caches certificates on smart card insertion to improve performance in further card operations. When selected, this option prevents ActivClient from reading and caching smart card certificates on card insertion to improve immediate performance.</string>
+      <string id="unknown_435">By default, ActivClient attempts to recognize and register cards from an unknown type (unsupported cards) on smart card insertion, to allow supporting new card types without any software update. When selected, this option disables this ActivClient feature to improve immediate performance.</string>
+      <string id="unknown_441">Enables the automatic configuration of the Outlook security profile on smart card insertion.</string>
+      <string id="unknown_446">Requires a CRL check in order to automatically configure email certificates in Outlook and to automatically publish certificates to the GAL. If enabled and enforced, the operation is not performed if the CRL is unavailable or if the certificate status is revoked or on hold. If enabled and not enforced, the operation is performed and a Windows event warning is created if the CRL is unavailable or if the certificate status is revoked or on hold. If disabled, the operation is performed regardless of the CRL check status.</string>
+      <string id="unknown_454">Enables auditing of Outlook security profile creation and certificate publication to the Global Address List.</string>
+      <string id="unknown_459">Enables the automatic publication of the user encryption certificate to the Global Address List (GAL) on smart card insertion.</string>
+      <string id="unknown_460">Enables using ActivClient Outlook security profile creation and Publish to GAL in a configuration where the email address from the smart card certificate does not match any of the email addresses associated to the Outlook Exchange account. In such a configuration, if this policy is disabled, the security profile creation and Publish to GAL do not happen; if this policy is enabled, ActivClient prompts the user to accept the operation.</string>
+      <string id="unknown_480">Automatically creates and updates contact information with the sender's certificate attached to the opened email.</string>
+      <string id="unknown_485">Points to the location where contacts are updated in Outlook .This folder must already have been created.</string>
+      <string id="unknown_497">Defines whether the ActivClient One-Time Password authentication for Check Point VPN-1 is synchronous or asynchronous (challenge / response).</string>
+      <string id="unknown_502">Message to send to the authentication server to get the challenge value (for challenge/response authentication). Use the same value as configured on your authentication server.</string>
+      <string id="unknown_505">String prefixing the challenge string received from the authentication server. Use the same value as configured on your authentication server.</string>
+      <string id="AC_EXPLAIN">Allows configuration of ActivClient.</string>
+      <string id="SUPPORTEDON_PRODUCT">At least Windows 2000 SP4.</string>
+      <string id="STRING_001">Enable "Include" application list</string>
+      <string id="STRING_002">Enable "Exclude" application list</string>
+      <string id="STRING_003">Enable "OpenCard" application list</string>
+      <string id="STRING_004">Allows users with enrollment agent certificates to download certificates from Microsoft Certificate Authorities, on the "Enrollment on behalf another user" web pages.</string>
+      <string id="STRING_005">Allows displaying the "Use Reader" menu and the "Reader List" toolbar icon in the User Console.</string>
+      <string id="STRING_006">Display "Make Certificates Available to Windows" menu</string>
+      <string id="STRING_007">Allows users to access and use the PIN Initialization Tool feature from the User Console "New Card" menu.</string>
+      <string id="STRING_008">Display the "Exit" menu item</string>
+      <string id="STRING_009">Allows displaying the "Exit" menu item in the ActivClient Agent menu. It closes the ActivClient Agent application.</string>
+      <string id="STRING_010">Display the "Get One-Time Password" menu item</string>
+      <string id="STRING_011">Allows users to generate a smart card-based One-Time Password from the ActivClient Agent via the "Get One-Time Password" menu item. This setting is ignored and "Get One-Time Password" option is not available if both "Display the One-Time Password window" and "Copy One-Time Password to clipboard" are disabled.</string>
+      <string id="STRING_012">Allows users to generate a smart card-based One-Time Password from the ActivClient Agent via the "Get One-Time Password" menu item, and to display it in a notification window.</string>
+      <string id="STRING_013">Allows users to generate a smart card-based One-Time Password from the ActivClient Agent via the "Get One-Time Password" menu item, and to copy it to the Clipboard automatically, ready to be pasted into the application of their choice.</string>
+      <string id="STRING_014">Display the "Open" menu item</string>
+      <string id="STRING_015">Allows displaying the "Open" menu item in the ActivClient Agent menu. It opens the ActivClient User Console.</string>
+      <string id="STRING_016">Display the "PIN Initialization Tool" menu item</string>
+      <string id="STRING_017">Allows displaying the "PIN Initialization Tool" menu item in the ActivClient Agent menu. It starts the PIN Initialization Tool, allowing users to initialize smart cards.</string>
+      <string id="STRING_018">Display the "PIN Change Tool" menu item</string>
+      <string id="STRING_019">Allows displaying the "PIN Change Tool" menu item in the ActivClient Agent menu. It starts the PIN Change Tool, allowing users to change their smart card PIN.</string>
+      <string id="STRING_020">Display the "Advanced Configuration Manager" menu item</string>
+      <string id="STRING_021">Allows displaying the "Advanced Configuration Manager" menu item in the ActivClient Agent menu. It starts the Advanced Configuration Manager, allowing users and administrators to update the ActivClient configuration.</string>
+      <string id="STRING_022">Display the "Advanced Diagnostics" menu item</string>
+      <string id="STRING_023">Allows displaying the "Advanced Diagnostics" menu item in the ActivClient Agent menu. It starts the Advanced Diagnostics tool, allowing users and help desk operators to diagnose ActivClient.</string>
+      <string id="STRING_024">Turns on the "Encrypt contents and attachments for outgoing messages" option at the next Outlook security profile update.</string>
+      <string id="STRING_025">Turns on the "Add digital signature to outgoing messages" option at the next Outlook security profile update.</string>
+      <string id="STRING_026">Turns on the "Send clear text signed message when sending signed messages" option at the next Outlook security profile update.</string>
+      <string id="STRING_027">ActivClient contacts CMS to determine if smart card updates are available a few minutes after Windows logon. To spread the requests received by CMS, this delay is a random value - between 0 and the maximum delay defined in this policy (in minutes).
+Recommended values are between 5 and 120.</string>
+      <string id="STRING_028">ActivClient contacts CMS to determine if smart card updates are available a few minutes after a smart card is inserted. This delay is a random value - between 0 and the maximum delay defined in this policy (in minutes).
+Recommended values are between 1 and 10.</string>
+      <string id="STRING_029">Display "Email" menu in Advanced Diagnostics</string>
+      <string id="STRING_030">Allows users to access the "Email" menu in the Advanced Diagnostics interface, in order to send the diagnostics report by email.</string>
+      <string id="STRING_031">Grants permanent access to the PIN cache to applications listed in the "Include" list.</string>
+      <string id="STRING_032">Prevents access to the PIN cache by applications listed in the "Exclude" list.</string>
+      <string id="STRING_033">Display "CA Certificates" folder</string>
+      <string id="STRING_034">Allows users to access and use the Advanced Configuration Manager feature from the User Console "Tools" menu.</string>
+      <string id="STRING_035">Display "My Certificates" folder</string>
+      <string id="STRING_036">Display the "Smart Card Info" icon</string>
+      <string id="STRING_037">Allows displaying the "Smart Card Info" icon in the right pane of the User Console. The Smart Card Info window displays information such as smart card user name, manufacturer, model and serial number.</string>
+      <string id="STRING_038">Display "My Personal Info"</string>
+      <string id="STRING_039">Display the "Change PIN" menu</string>
+      <string id="STRING_040">Allows users to access and use the Change PIN feature from the User Console "Tools" menu.</string>
+      <string id="STRING_041">Allows displaying the main "Help" standard tool bar button and the "ActivClient Help" command in the "Help" menu in the User Console.</string>
+      <string id="STRING_042">Display "Unlock Card" menu</string>
+      <string id="STRING_043">Display "View Unlock Code" menu</string>
+      <string id="STRING_044">Display the "New Card" menu</string>
+      <string id="STRING_045">Display "Reset Card" menu</string>
+      <string id="STRING_046">Display "Check for Card Update" menu</string>
+      <string id="STRING_047">Display "Publish to GAL" menu</string>
+      <string id="STRING_048">Display "Import Certificate" menu</string>
+      <string id="STRING_049">Display "Export Certificate" menu</string>
+      <string id="STRING_050">Turns on the "Request S/MIME receipt for all S/MIME signed messages" option at the next Outlook security profile update (only available with Outlook 2002 and later).</string>
+      <string id="STRING_051">Connection URL for the CMS server (see the ActivIdentity CMS documentation). The port number is included in the URL.
+Example : http://www.mycompany.com:89898</string>
+      <string id="STRING_052">Timeout in milliseconds (ms) for each certificate CRL check. Recommended values are between 0 and 50000.
+0 is used to represent the system default of 20000 ms.</string>
+      <string id="STRING_053">Automatically decrypts opened emails. Allows you to save copies of emails locally in non-encrypted format.
+Automatically decrypted emails remain decrypted. Consider the security implications before using this option.</string>
+      <string id="STRING_054">Automatically adds Outlook security icons to the New Mail Message toolbar on smart card insertion.
+Note: This setting does not apply to Outlook 2003 and later.</string>
+      <string id="STRING_055">Allows improving performance by enabling caching of the applet selected on the smart card.
+Caution is required when using Terminal Services or Remote Desktop with more than one instance of ActivClient accessing the smart card: this option must then be disabled (No) to prevent risks of smart card data corruption.</string>
+      <string id="ADMXMigrator_UnresolvedString">ADMX Migrator encountered a string that is not present in the source ADM string table.</string>
+      <string id="ADMXMigrator_NoSupportedOn">ADMX Migrator encountered a policy that does not have a supportedOn value.</string>
+    </stringTable>
+    <presentationTable>
+      <presentation id="Emailaddresswherethediagnosticsreportwillbesent">
+        <textBox refId="mail">
+          <label>mail</label>
+        </textBox>
+      </presentation>
+      <presentation id="STRING_029">
+        <dropdownList refId="DisplayMail" defaultItem="0">DisplayMail</dropdownList>
+      </presentation>
+      <presentation id="PerformsmartcarddiagnosticsinAdvancedDiagnostics">
+        <dropdownList refId="SmartCardDiagnostic" defaultItem="0">SmartCardDiagnostic</dropdownList>
+      </presentation>
+      <presentation id="Activatethelogfiles">
+        <dropdownList refId="Activated" defaultItem="1">Activated</dropdownList>
+      </presentation>
+      <presentation id="Fullpathtologfile">
+        <textBox refId="LogFile">
+          <label>LogFile</label>
+        </textBox>
+      </presentation>
+      <presentation id="MaxlogfilesizeinMB">
+        <decimalTextBox refId="MaxFileSize" defaultValue="5">MaxFileSize</decimalTextBox>
+      </presentation>
+      <presentation id="Maximumnumberoffilebackups">
+        <decimalTextBox refId="MaxFileBackups" defaultValue="1">MaxFileBackups</decimalTextBox>
+      </presentation>
+      <presentation id="EnableperformanceloggingforWindowsPKISmartCardLogon">
+        <dropdownList refId="EnableWindowsPKILoginProfiling" defaultItem="1">EnableWindowsPKILoginProfiling</dropdownList>
+      </presentation>
+      <presentation id="Behaviorwhenthesmartcardisremoved">
+        <dropdownList refId="CardRemovalBehavior" defaultItem="2">CardRemovalBehavior</dropdownList>
+      </presentation>
+      <presentation id="DisplayNewCardwindowoncardinsertion">
+        <dropdownList refId="DisableInitCard" defaultItem="1">DisableInitCard</dropdownList>
+      </presentation>
+      <presentation id="DisplayUnlockCardwindowwhenalockedcardisinserted">
+        <dropdownList refId="DisableUnlockDlgOnLockedCardInserted" defaultItem="0">DisableUnlockDlgOnLockedCardInserted</dropdownList>
+      </presentation>
+      <presentation id="PreventPINentryshorterthantheminimumPINlength">
+        <dropdownList refId="EnableSmallPINEntryPrevention" defaultItem="0">EnableSmallPINEntryPrevention</dropdownList>
+      </presentation>
+      <presentation id="PreventPINentrylongerthanthemaximumPINlength">
+        <dropdownList refId="EnableLargePINEntryPrevention" defaultItem="1">EnableLargePINEntryPrevention</dropdownList>
+      </presentation>
+      <presentation id="PreventChangePINatfirstusecancellation">
+        <dropdownList refId="DisableCancelChangePINatFirstUse" defaultItem="1">DisableCancelChangePINatFirstUse</dropdownList>
+      </presentation>
+      <presentation id="AllowPINverificationagainstthesmartcardregardlessofthePINlength">
+        <dropdownList refId="DisablePINPolicyVerificationBeforePINCheck" defaultItem="0">DisablePINPolicyVerificationBeforePINCheck</dropdownList>
+      </presentation>
+      <presentation id="PreventusersfromreusingthecurrentPINduringPINChange">
+        <dropdownList refId="EnableSamePINPrevention" defaultItem="1">EnableSamePINPrevention</dropdownList>
+      </presentation>
+      <presentation id="AllowalphabeticcharactersinPINcode">
+        <dropdownList refId="AlphaPINAllowed" defaultItem="0">AlphaPINAllowed</dropdownList>
+      </presentation>
+      <presentation id="EnablePINcaching">
+        <dropdownList refId="Allow" defaultItem="0">Allow</dropdownList>
+      </presentation>
+      <presentation id="AlwayspromptforthePINcodebeforeperforminganyprivatekeysignatureoperation">
+        <dropdownList refId="Sign" defaultItem="1">Sign</dropdownList>
+      </presentation>
+      <presentation id="AlwayspromptforthePINcodebeforeperforminganyprivatekeydecryptionoperation">
+        <dropdownList refId="Decrypt" defaultItem="1">Decrypt</dropdownList>
+      </presentation>
+      <presentation id="AlwayspromptforthePINcodebeforeperforminganyotheroperation">
+        <dropdownList refId="Other" defaultItem="1">Other</dropdownList>
+      </presentation>
+      <presentation id="NumberofminutesbeforePINcacheiscleared">
+        <decimalTextBox refId="Minutes" defaultValue="15">Minutes</decimalTextBox>
+      </presentation>
+      <presentation id="Allowper-processPINcaching">
+        <dropdownList refId="AllowPerProcess" defaultItem="1">AllowPerProcess</dropdownList>
+      </presentation>
+      <presentation id="STRING_001">
+        <dropdownList refId="Include" defaultItem="0">Include</dropdownList>
+      </presentation>
+      <presentation id="STRING_002">
+        <dropdownList refId="Exclude" defaultItem="1">Exclude</dropdownList>
+      </presentation>
+      <presentation id="STRING_003">
+        <dropdownList refId="OpenCard" defaultItem="0">OpenCard</dropdownList>
+      </presentation>
+      <presentation id="MakecertificatesavailabletoWindowsoncardinsertion">
+        <dropdownList refId="AutoReg" defaultItem="0">AutoReg</dropdownList>
+      </presentation>
+      <presentation id="RemovecertificatesfromWindowsonlogoff">
+        <dropdownList refId="AutoUnRegOnLogoff" defaultItem="1">AutoUnRegOnLogoff</dropdownList>
+      </presentation>
+      <presentation id="RemovecertificatesfromWindowsonsmartcardremoval">
+        <dropdownList refId="AutoUnRegOnRemove" defaultItem="1">AutoUnRegOnRemove</dropdownList>
+      </presentation>
+      <presentation id="Displaycertificatereplacementwarning">
+        <dropdownList refId="EnableReplaceCertDisplay" defaultItem="1">EnableReplaceCertDisplay</dropdownList>
+      </presentation>
+      <presentation id="ConfigureWindowsEFSwithsmartcardcertificate">
+        <dropdownList refId="AutoConfigEFS" defaultItem="0">AutoConfigEFS</dropdownList>
+      </presentation>
+      <presentation id="Allowcertificateenrollmentonbehalfofanotheruser">
+        <dropdownList refId="DisableDefaultCertSelection" defaultItem="1">DisableDefaultCertSelection</dropdownList>
+      </presentation>
+      <presentation id="STRING_033">
+        <dropdownList refId="DisplayCACertFolder" defaultItem="0">DisplayCACertFolder</dropdownList>
+      </presentation>
+      <presentation id="Displayreaderselectionlist">
+        <dropdownList refId="DisplayReaderList" defaultItem="0">DisplayReaderList</dropdownList>
+      </presentation>
+      <presentation id="DisplaytheAdvancedConfigurationManager">
+        <dropdownList refId="ActivateAdminConfig" defaultItem="0">ActivateAdminConfig</dropdownList>
+      </presentation>
+      <presentation id="Allowdeletionofusercertificates">
+        <dropdownList refId="AllowDeleteCert" defaultItem="0">AllowDeleteCert</dropdownList>
+      </presentation>
+      <presentation id="STRING_035">
+        <dropdownList refId="DisplayCertFolder" defaultItem="0">DisplayCertFolder</dropdownList>
+      </presentation>
+      <presentation id="STRING_036">
+        <dropdownList refId="DisplayAboutCard" defaultItem="0">DisplayAboutCard</dropdownList>
+      </presentation>
+      <presentation id="STRING_038">
+        <dropdownList refId="ActivateTabDemographic" defaultItem="0">ActivateTabDemographic</dropdownList>
+      </presentation>
+      <presentation id="STRING_039">
+        <dropdownList refId="ActivateChangePin" defaultItem="0">ActivateChangePin</dropdownList>
+      </presentation>
+      <presentation id="STRING_006">
+        <dropdownList refId="ActivateCertificateRegister" defaultItem="0">ActivateCertificateRegister</dropdownList>
+      </presentation>
+      <presentation id="DisplayAdvancedDiagnostics">
+        <dropdownList refId="ActivateDiagnosticTool" defaultItem="0">ActivateDiagnosticTool</dropdownList>
+      </presentation>
+      <presentation id="DisplayTroubleshooting">
+        <dropdownList refId="ActivateTroubleShooting" defaultItem="0">ActivateTroubleShooting</dropdownList>
+      </presentation>
+      <presentation id="DisplayHelp">
+        <dropdownList refId="DisplayHelp" defaultItem="0">DisplayHelp</dropdownList>
+      </presentation>
+      <presentation id="DisplayTreeViewinExplorerBar">
+        <dropdownList refId="DisplayTreeViewPanel" defaultItem="0">DisplayTreeViewPanel</dropdownList>
+      </presentation>
+      <presentation id="DisplayTasksViewinExplorerBar">
+        <dropdownList refId="DisplayTaskPanel" defaultItem="0">DisplayTaskPanel</dropdownList>
+      </presentation>
+      <presentation id="STRING_042">
+        <dropdownList refId="ActivateUnlock" defaultItem="0">ActivateUnlock</dropdownList>
+      </presentation>
+      <presentation id="STRING_043">
+        <dropdownList refId="DisplayUnlockCode" defaultItem="0">DisplayUnlockCode</dropdownList>
+      </presentation>
+      <presentation id="STRING_044">
+        <dropdownList refId="DisplayPinInit" defaultItem="0">DisplayPinInit</dropdownList>
+      </presentation>
+      <presentation id="STRING_045">
+        <dropdownList refId="DisplayReset" defaultItem="0">DisplayReset</dropdownList>
+      </presentation>
+      <presentation id="STRING_046">
+        <dropdownList refId="ActivateCheckforCardUpdate" defaultItem="0">ActivateCheckforCardUpdate</dropdownList>
+      </presentation>
+      <presentation id="STRING_047">
+        <dropdownList refId="DisplayPublishToGal" defaultItem="0">DisplayPublishToGal</dropdownList>
+      </presentation>
+      <presentation id="Allowuserstoswitchbetweeniconanddetailview">
+        <dropdownList refId="DisplayViewType" defaultItem="0">DisplayViewType</dropdownList>
+      </presentation>
+      <presentation id="STRING_048">
+        <dropdownList refId="DisplayImportCert" defaultItem="0">DisplayImportCert</dropdownList>
+      </presentation>
+      <presentation id="STRING_049">
+        <dropdownList refId="DisplayExportCert" defaultItem="0">DisplayExportCert</dropdownList>
+      </presentation>
+      <presentation id="AllowOne-TimePasswordgeneration">
+        <dropdownList refId="AllowGenOTP" defaultItem="0">AllowGenOTP</dropdownList>
+      </presentation>
+      <presentation id="AllowOne-TimePasswordsynchronization">
+        <dropdownList refId="AllowSynchOTP" defaultItem="0">AllowSynchOTP</dropdownList>
+      </presentation>
+      <presentation id="DisplayUserInterfaceToolbarcustomization">
+        <dropdownList refId="DisplayUICusto" defaultItem="0">DisplayUICusto</dropdownList>
+      </presentation>
+      <presentation id="ImagedisplayedonthelowerrightcorneroftheListview">
+        <textBox refId="BackgroundImage">
+          <label>BackgroundImage</label>
+        </textBox>
+      </presentation>
+      <presentation id="Automaticallyregistercertificateswhenimportedontothesmartcard">
+        <dropdownList refId="AutoRegisterOnImport" defaultItem="0">AutoRegisterOnImport</dropdownList>
+      </presentation>
+      <presentation id="STRING_008">
+        <dropdownList refId="ActivateMenuExit" defaultItem="0">ActivateMenuExit</dropdownList>
+      </presentation>
+      <presentation id="STRING_010">
+        <dropdownList refId="DisplayGetOTP" defaultItem="0">DisplayGetOTP</dropdownList>
+      </presentation>
+      <presentation id="DisplaytheOne-TimePasswordwindow">
+        <dropdownList refId="DisplayOTPWindow" defaultItem="0">DisplayOTPWindow</dropdownList>
+      </presentation>
+      <presentation id="One-TimePasswordwindowdurationinseconds">
+        <decimalTextBox refId="OTPWindowTimeout" defaultValue="10">OTPWindowTimeout</decimalTextBox>
+      </presentation>
+      <presentation id="CopyOne-TimePasswordtoClipboard">
+        <dropdownList refId="EnableOTPClipboard" defaultItem="0">EnableOTPClipboard</dropdownList>
+      </presentation>
+      <presentation id="ClipboardOne-TimePasswordexpirationinseconds">
+        <decimalTextBox refId="OTPClipboardTimeOut" defaultValue="30">OTPClipboardTimeOut</decimalTextBox>
+      </presentation>
+      <presentation id="STRING_014">
+        <dropdownList refId="OpenUserConsole" defaultItem="0">OpenUserConsole</dropdownList>
+      </presentation>
+      <presentation id="STRING_016">
+        <dropdownList refId="DisplayInitPIN" defaultItem="0">DisplayInitPIN</dropdownList>
+      </presentation>
+      <presentation id="STRING_018">
+        <dropdownList refId="DisplayChangePIN" defaultItem="0">DisplayChangePIN</dropdownList>
+      </presentation>
+      <presentation id="STRING_020">
+        <dropdownList refId="DisplayAdvancedConfiguration" defaultItem="0">DisplayAdvancedConfiguration</dropdownList>
+      </presentation>
+      <presentation id="STRING_022">
+        <dropdownList refId="DisplayAdvancedDiagnostics" defaultItem="0">DisplayAdvancedDiagnostics</dropdownList>
+      </presentation>
+      <presentation id="DisplayBlockedCardManagermessagewhenasmartcardwithablockedcardmanagerisinserted">
+        <dropdownList refId="DisplayBlockedCardManager" defaultItem="0">DisplayBlockedCardManager</dropdownList>
+      </presentation>
+      <presentation id="CardManagerblockedmessage">
+        <textBox refId="BlockedCardManagerMessage">
+          <label>BlockedCardManagerMessage</label>
+          <defaultValue>Your smart card's Card Manager is blocked; please contact the person or organization who gave you this card.</defaultValue>
+        </textBox>
+      </presentation>
+      <presentation id="DisplayNoSmartCardReaderAlert">
+        <dropdownList refId="Enable" defaultItem="0">Enable</dropdownList>
+      </presentation>
+      <presentation id="NoSmartCardReaderAlertmessage">
+        <textBox refId="Message">
+          <label>Message</label>
+          <defaultValue>&lt;b&gt;Card Reader Not Detected&lt;/b&gt; \n\nActivClient was unable to detect a smart card reader connected to your computer.\n\nPlease ensure that your smart card reader is properly connected.</defaultValue>
+        </textBox>
+      </presentation>
+      <presentation id="NoSmartCardReaderAlertdurationinseconds">
+        <decimalTextBox refId="Duration" defaultValue="5">Duration</decimalTextBox>
+      </presentation>
+      <presentation id="DisplayUnattendedSmartCardAlert">
+        <dropdownList refId="Enable" defaultItem="1">Enable</dropdownList>
+      </presentation>
+      <presentation id="UnattendedSmartCardAlertmessage">
+        <textBox refId="Message">
+          <label>Message</label>
+          <defaultValue>&lt;b&gt;Unattended Smart Card&lt;/b&gt; \n\nActivClient has detected that your smart card was in the reader while your computer was unattended.\n\nPlease remove your smart card before leaving your computer.</defaultValue>
+        </textBox>
+      </presentation>
+      <presentation id="UnattendedSmartCardAlertdurationinseconds">
+        <decimalTextBox refId="Duration" defaultValue="5">Duration</decimalTextBox>
+      </presentation>
+      <presentation id="CardAuto-UpdateAlertdurationinseconds">
+        <decimalTextBox refId="Duration" defaultValue="5">Duration</decimalTextBox>
+      </presentation>
+      <presentation id="DisplayCardExpirationnotification">
+        <dropdownList refId="EnableCardValidityCheck" defaultItem="1">EnableCardValidityCheck</dropdownList>
+      </presentation>
+      <presentation id="DisplayCertificateExpirationnotification">
+        <dropdownList refId="EnableCertificatesValidityCheck" defaultItem="1">EnableCertificatesValidityCheck</dropdownList>
+      </presentation>
+      <presentation id="Defaultexpirationwarningmessage">
+        <textBox refId="ValidityCheckSentence">
+          <label>ValidityCheckSentence</label>
+          <defaultValue>Contact the person or organization who gave you this smart card.</defaultValue>
+        </textBox>
+      </presentation>
+      <presentation id="Defaultexpirationwarningperiodindays">
+        <decimalTextBox refId="ValidityCheckPeriod" defaultValue="60">ValidityCheckPeriod</decimalTextBox>
+      </presentation>
+      <presentation id="Defaultexpirationnotificationperiodindays">
+        <decimalTextBox refId="ExpirationNotificationPeriod" defaultValue="5">ExpirationNotificationPeriod</decimalTextBox>
+      </presentation>
+      <presentation id="ExpirationWarningHelpfile">
+        <textBox refId="ValidityCheckHelp">
+          <label>ValidityCheckHelp</label>
+        </textBox>
+      </presentation>
+      <presentation id="Defaultdelayaftercardinsertionforexpirationcheckinseconds">
+        <decimalTextBox refId="ValidityCheckDelay" defaultValue="20">ValidityCheckDelay</decimalTextBox>
+      </presentation>
+      <presentation id="Staticlogonbanner-Highresolution">
+        <textBox refId="BannerHiRes">
+          <label>BannerHiRes</label>
+        </textBox>
+      </presentation>
+      <presentation id="Movinglogonbanner-Highresolution">
+        <textBox refId="ProgressBarHiRes">
+          <label>ProgressBarHiRes</label>
+        </textBox>
+      </presentation>
+      <presentation id="SoftwareautomaticupdateURL">
+        <textBox refId="URL">
+          <label>URL</label>
+        </textBox>
+      </presentation>
+      <presentation id="Downloadpathforsoftwareupdate">
+        <textBox refId="DownloadPath">
+          <label>DownloadPath</label>
+        </textBox>
+      </presentation>
+      <presentation id="Numberofretriesperformedwhenanerroroccurs">
+        <decimalTextBox refId="NumberOfRetries" defaultValue="3">NumberOfRetries</decimalTextBox>
+      </presentation>
+      <presentation id="Numberofminutesbetweenretries">
+        <decimalTextBox refId="TimeBetweenRetry" defaultValue="15">TimeBetweenRetry</decimalTextBox>
+      </presentation>
+      <presentation id="Numberofdaysbeforecheckingforanupdate">
+        <decimalTextBox refId="CheckDays" defaultValue="1">CheckDays</decimalTextBox>
+      </presentation>
+      <presentation id="EnableCardAuto-Update">
+        <dropdownList refId="Enabled" defaultItem="1">Enabled</dropdownList>
+      </presentation>
+      <presentation id="Frequencyofupdateindays">
+        <decimalTextBox refId="UpdateFrequency" defaultValue="7">UpdateFrequency</decimalTextBox>
+      </presentation>
+      <presentation id="MaximumdelayforcardupdatecheckafterWindowslogon">
+        <decimalTextBox refId="CMSMaximumDelayAtLogin" defaultValue="120">CMSMaximumDelayAtLogin</decimalTextBox>
+      </presentation>
+      <presentation id="Maximumdelayforcardupdatecheckaftercardinsertion">
+        <decimalTextBox refId="CMSMaximumDelayAfterCardInsertion" defaultValue="5">CMSMaximumDelayAfterCardInsertion</decimalTextBox>
+      </presentation>
+      <presentation id="CMSserverURL">
+        <textBox refId="CMSServerURL">
+          <label>CMSServerURL</label>
+        </textBox>
+      </presentation>
+      <presentation id="CMSSynchronizationManagertimeoutinseconds">
+        <decimalTextBox refId="CMSSyncManagerTimeout" defaultValue="5">CMSSyncManagerTimeout</decimalTextBox>
+      </presentation>
+      <presentation id="CMSSynchronizationManagerretry">
+        <decimalTextBox refId="CMSSyncManagerRetry" defaultValue="2">CMSSyncManagerRetry</decimalTextBox>
+      </presentation>
+      <presentation id="CMSMDIDCtimeoutinseconds">
+        <decimalTextBox refId="CMSMDIDCTimeout" defaultValue="600">CMSMDIDCTimeout</decimalTextBox>
+      </presentation>
+      <presentation id="PreferGSC-ISoverPIVEndPoint">
+        <dropdownList refId="DefaultCardEdge" defaultItem="1">DefaultCardEdge</dropdownList>
+      </presentation>
+      <presentation id="Enablesmartcarddiscoveryinformationcaching">
+        <dropdownList refId="EnableCaching" defaultItem="0">EnableCaching</dropdownList>
+      </presentation>
+      <presentation id="Enablecachingofappletselection">
+        <dropdownList refId="EnableSelectedAppletCaching" defaultItem="0">EnableSelectedAppletCaching</dropdownList>
+      </presentation>
+      <presentation id="Disablethecertificatecachingoncardinsertion">
+        <dropdownList refId="DisableCertificateCaching" defaultItem="1">DisableCertificateCaching</dropdownList>
+      </presentation>
+      <presentation id="Disablethecardautoregistrationoncardinsertion">
+        <dropdownList refId="DisableCardAutoRegistration" defaultItem="1">DisableCardAutoRegistration</dropdownList>
+      </presentation>
+      <presentation id="SetupemailcertificatesinOutlookoncardinsertion">
+        <dropdownList refId="AutoRegOutlook" defaultItem="0">AutoRegOutlook</dropdownList>
+      </presentation>
+      <presentation id="CheckCRLforOutlooksecurityprofilecreationandPublishtoGAL">
+        <dropdownList refId="CRLCheck" defaultItem="1">CRLCheck</dropdownList>
+      </presentation>
+      <presentation id="CheckCRLtimeoutforOutlooksecurityprofilecreationandPublishtoGAL">
+        <decimalTextBox refId="CRLCheckTimeout" defaultValue="0">CRLCheckTimeout</decimalTextBox>
+      </presentation>
+      <presentation id="AllowNameMismatchforOutlooksecurityprofilecreationandPublishtoGAL">
+        <dropdownList refId="AllowNameMismatch" defaultItem="0">AllowNameMismatch</dropdownList>
+      </presentation>
+      <presentation id="EnableauditforOutlooksecurityprofilecreationandPublishtoGAL">
+        <dropdownList refId="AuditAutoConfiguration" defaultItem="0">AuditAutoConfiguration</dropdownList>
+      </presentation>
+      <presentation id="AutomaticallypublishcertificatestotheGlobalAddressList">
+        <dropdownList refId="PublishToGal" defaultItem="1">PublishToGal</dropdownList>
+      </presentation>
+      <presentation id="Encryptcontentsandattachmentsforoutgoingmessages">
+        <dropdownList refId="AutoRegEncrypt" defaultItem="1">AutoRegEncrypt</dropdownList>
+      </presentation>
+      <presentation id="Adddigitalsignatureforoutgoingmessages">
+        <dropdownList refId="AutoRegSignature" defaultItem="0">AutoRegSignature</dropdownList>
+      </presentation>
+      <presentation id="Sendcleartextsignedmessagewhensendingsignedmessages">
+        <dropdownList refId="AutoRegClearText" defaultItem="0">AutoRegClearText</dropdownList>
+      </presentation>
+      <presentation id="Auto-requestreturnreceiptforoutgoingemails">
+        <dropdownList refId="AutoRegReceipt" defaultItem="1">AutoRegReceipt</dropdownList>
+      </presentation>
+      <presentation id="AutomaticallyaddsenderscertificatestoOutlookcontacts">
+        <dropdownList refId="AutoContact" defaultItem="0">AutoContact</dropdownList>
+      </presentation>
+      <presentation id="OutlookAuto-Contactdestinationfolder">
+        <textBox refId="AutoContactStorage">
+          <label>AutoContactStorage</label>
+          <defaultValue>Contacts</defaultValue>
+        </textBox>
+      </presentation>
+      <presentation id="Automaticallydecryptencryptedemails">
+        <dropdownList refId="AutoDecrypt" defaultItem="1">AutoDecrypt</dropdownList>
+      </presentation>
+      <presentation id="AddOutlooksecurityiconstothecomposeemailwindow">
+        <dropdownList refId="DisplaySecurityIcons" defaultItem="0">DisplaySecurityIcons</dropdownList>
+      </presentation>
+      <presentation id="CheckPointVPN-1authenticationmode">
+        <dropdownList refId="AuthenticationMode" defaultItem="0">AuthenticationMode</dropdownList>
+      </presentation>
+      <presentation id="Authenticationserverchallengepassword">
+        <textBox refId="ChallengePassword">
+          <label>ChallengePassword</label>
+          <defaultValue>challenge</defaultValue>
+        </textBox>
+      </presentation>
+      <presentation id="Authenticationserverchallengeprompt">
+        <textBox refId="ChallengePrompt">
+          <label>ChallengePrompt</label>
+          <defaultValue>Challenge:</defaultValue>
+        </textBox>
+      </presentation>
+    </presentationTable>
+  </resources>
+</policyDefinitionResources>

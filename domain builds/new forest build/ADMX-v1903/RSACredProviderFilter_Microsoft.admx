@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<policyDefinitions revision="1.0" schemaVersion="1.0">
+  <policyNamespaces>
+    <target prefix="fullarmor" namespace="FullArmor.87e263d7-627e-46f1-99bf-1122ce154407" />
+    <using prefix="windows" namespace="Microsoft.Policies.Windows" />
+  </policyNamespaces>
+  <supersededAdm fileName="\\102\share\RSA\Policy Templates\RSACredProviderFilter_Microsoft.adm" />
+  <resources minRequiredRevision="1.0" />
+  <supportedOn>
+    <definitions>
+      <definition name="SUPPORTED_VISTA" displayName="$(string.SUPPORTED_VISTA)" />
+      <definition name="SUPPORTED_NotSpecified" displayName="$(string.ADMXMigrator_NoSupportedOn)" />
+    </definitions>
+  </supportedOn>
+  <categories>
+    <category name="RSA_DESKTOP" displayName="$(string.RSA_DESKTOP)" />
+    <category name="CRED_PROVIDER_FILTER_SETTINGS" displayName="$(string.CRED_PROVIDER_FILTER_SETTINGS)">
+      <parentCategory ref="RSA_DESKTOP" />
+    </category>
+  </categories>
+  <policies>
+    <policy name="FILTER_MS_PASSWORD_CRED_PROVIDER_TITLE" class="Machine" displayName="$(string.FILTER_MS_PASSWORD_CRED_PROVIDER_TITLE)" explainText="$(string.FILTER_MS_PASSORD_CRED_PROVIDER_DESCRIPTION)" presentation="$(presentation.FILTER_MS_PASSWORD_CRED_PROVIDER_TITLE)" key="SOFTWARE\Policies\RSA\RSA Desktop\Credential Provider Filtering\PasswordProvider" valueName="ExcludeProvider">
+      <parentCategory ref="CRED_PROVIDER_FILTER_SETTINGS" />
+      <supportedOn ref="SUPPORTED_VISTA" />
+      <enabledValue>
+        <string>1</string>
+      </enabledValue>
+      <disabledValue>
+        <string>0</string>
+      </disabledValue>
+    </policy>
+    <policy name="FILTER_MS_SMARTCARD_CRED_PROVIDER_TITLE" class="Machine" displayName="$(string.FILTER_MS_SMARTCARD_CRED_PROVIDER_TITLE)" explainText="$(string.FILTER_MS_SMARTCARD_CRED_PROVIDER_DESCRIPTION)" presentation="$(presentation.FILTER_MS_SMARTCARD_CRED_PROVIDER_TITLE)" key="SOFTWARE\Policies\RSA\RSA Desktop\Credential Provider Filtering\Smartcard Credential Provider" valueName="ExcludeProvider">
+      <parentCategory ref="CRED_PROVIDER_FILTER_SETTINGS" />
+      <supportedOn ref="SUPPORTED_VISTA" />
+      <enabledValue>
+        <string>1</string>
+      </enabledValue>
+      <disabledValue>
+        <string>0</string>
+      </disabledValue>
+    </policy>
+  </policies>
+</policyDefinitions>

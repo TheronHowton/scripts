@@ -1,0 +1,15 @@
+Name,Description,Type,Path
+Admins-AD-ENG,Local admins who are Domain Admins.,Global,adminGrps
+Admins-AD-OPS,"Local admins who administrate AD, but are NOT domain admins.",Global,adminGrps
+SVR-Auditors,Local members granted rights to read security logs on member servers.,Global,adminGrps
+SVR-Auditors-DCs,Local members granted rights to read security logs on domain controllers.,Global,adminGrps
+SVR-Local-Admins,Local members granted local administrator rights on member servers.,Global,adminGrps
+SVR-Local-Admins-DCs,Local members granted local administrator rights on domain controllers.,Global,adminGrps
+WKS-Local-Admins,Local members granted local administrator rights on workstations.,Global,adminGrps
+DelegatedRight-ManageAD,Local members that have full control of \nbN\* OUs.,Global,delRgtsGrps
+DelegatedRight-LinkGPO-Root,"Local members that can link GPOs anywhere in nbN, delegated at the domain root.",Global,delRgtsGrps
+Logon-DenyAccess,Denies local and RDP access to servers and workstations.,Global,secGrps
+SVC-Accts,Service accounts that are denied local and RDP logon for servers and workstations.,Global,secGrps
+SVR-RSA-NoChallenge,Local members are not required to use RSA to logon. Member of SVR-RSA-NoChallenge.,DomainLocal,secGrps
+WKS-RSA-NoChallenge,Local members are not required to use RSA to logon. Member of WKS-RSA-NoChallenge.,DomainLocal,secGrps
+PKI-Servers,PKI sever that are members of 'nbN\Cert Publishers',Global,secGrps

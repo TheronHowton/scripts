@@ -1,0 +1,79 @@
+<policyDefinitionResources revision="1.0" schemaVersion="1.0">
+  <displayName>
+  </displayName>
+  <description>
+  </description>
+  <resources>
+    <stringTable>
+      <string id="secbanner">Security Banner</string>
+      <string id="top">Top               </string>
+      <string id="bottom">Bottom</string>
+      <string id="both">Both</string>
+      <string id="static">Static</string>
+      <string id="rollup">Roll-Up</string>
+      <string id="clickthrough">Click-Through</string>
+      <string id="EXPLAIN">These settings control the Security Banner:
+
+NOTE: Users must re-login to see these settings take effect.
+
+Banner Enabled:
+Select &quot;Banner Enabled&quot; to display the Security Banner or deselect &quot;Banner Enabled&quot; to remove the Security Banner.
+
+Position:
+Specify the location of  where the banner should display from the drop-down menu.
+    Both:  Select this option to display the banner at both the top and bottom of the Windows desktop.
+    Bottom:  Select this option to display the banner at the bottom of the Windows Desktop just above the Taskbar.
+    Top:  Select this option to display the banner at the top of the Windows Desktop.
+
+
+Style:  
+Specify the type of banner style from the drop-down menu.
+    Click-Through:  Select this option to configure the banner to always appear on screen.  The &quot;Click-Through&quot; style does not occupy the screen space like the &quot;Static&quot; style, but instead allows the user to access objects that are behind the banner.
+    Roll-Up:  Select this option to configure the banner to temporarily hide from view upon mouse-over.  The &quot;Roll-Up&quot; style behaves similarly to the &quot;Auto Hide&quot; Windows Taskbar and does not permanently occupy screen space. 
+    Static:  Select this option to configure the banner to always appear on screen.  The &quot;Static&quot; style behaves similarly to the &quot;Always on Top&quot; Windows Taskbar and permanently occupies screen space.
+
+
+Opacity:
+Select the banner&#39;s opacity level (where 0% is completely transparent and 100% is completely opaque (i.e., solid color)).
+
+
+Roll-Up Delay (seconds):
+If the &quot;Roll-Up Banner&quot; style is selected, specify the delay (in seconds) before the banner will automatically re-appear.
+
+
+Leading and Trailing Text:
+Enter the text to be display before and after the classification label on the Security Banner.
+    %user:  Enter &quot;%user&quot; to display the current user&#39;s username on the Security Banner. (Default for Trailing Text)
+    %host:  Enter &quot;%host&quot; to display the system&#39;s host name on the Security Banner. (Default for Leading Text)
+    %version:  Enter &quot;%version&quot; to display the JEDI Version on the Security Banner.
+    %date:  Enter &quot;%date&quot; to display the current date on the Security Banner.
+    Other Text:  If desired, additional text may be entered in the Leading Text and Trailing Text fields.
+
+
+Please refer to the JEDI documentation for more information</string>
+      <string id="ADMXMigrator_UnresolvedString">ADMX Migrator encountered a string that is not present in the source ADM string table.</string>
+      <string id="ADMXMigrator_NoSupportedOn">ADMX Migrator encountered a policy that does not have a supportedOn value.</string>
+    </stringTable>
+    <presentationTable>
+      <presentation id="SecurityBanner">
+        <checkBox refId="Enabled" defaultChecked="true">Banner Enabled</checkBox>
+        <text>Position:</text>
+        <dropdownList refId="Position" defaultItem="0"/>
+        <text>Style:</text>
+        <dropdownList refId="Style" defaultItem="0"/>
+        <text>Opacity:</text>
+        <decimalTextBox refId="Opacity" defaultValue="80"/>
+        <text>Rollup Delay (seconds):</text>
+        <decimalTextBox refId="DelayRollup" defaultValue="3"/>
+        <textBox refId="LeadingText">
+          <label>Leading Text:</label>
+          <defaultValue>%host</defaultValue>
+        </textBox>
+        <textBox refId="TrailingText">
+          <label>Trailing Text:</label>
+          <defaultValue>%user</defaultValue>
+        </textBox>
+      </presentation>
+    </presentationTable>
+  </resources>
+</policyDefinitionResources>

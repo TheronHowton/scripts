@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<policyDefinitions revision="1.0" schemaVersion="1.0">
+  <policyNamespaces>
+    <target prefix="fullarmor" namespace="FullArmor.c162d654-d02a-4833-8509-9a74777e3662" />
+    <using prefix="windows" namespace="Microsoft.Policies.Windows" />
+  </policyNamespaces>
+  <supersededAdm fileName="\\102\share\RSA\Policy Templates\RSACredProviderFilter_SecurID.adm" />
+  <resources minRequiredRevision="1.0" />
+  <supportedOn>
+    <definitions>
+      <definition name="SUPPORTED_VISTA" displayName="$(string.SUPPORTED_VISTA)" />
+      <definition name="SUPPORTED_NotSpecified" displayName="$(string.ADMXMigrator_NoSupportedOn)" />
+    </definitions>
+  </supportedOn>
+  <categories>
+    <category name="RSA_DESKTOP" displayName="$(string.RSA_DESKTOP)" />
+    <category name="CRED_PROVIDER_FILTER_SETTINGS" displayName="$(string.CRED_PROVIDER_FILTER_SETTINGS)">
+      <parentCategory ref="RSA_DESKTOP" />
+    </category>
+  </categories>
+  <policies>
+    <policy name="FILTER_SIDC_CRED_PROVIDERS_TITLE" class="Machine" displayName="$(string.FILTER_SIDC_CRED_PROVIDERS_TITLE)" explainText="$(string.FILTER_SIDC_CRED_PROVIDERS_DESCRIPTION)" presentation="$(presentation.FILTER_SIDC_CRED_PROVIDERS_TITLE)" key="SOFTWARE\Policies\RSA\RSA Desktop\Credential Provider Filtering\SIDCCredentialProvider" valueName="ExcludeProvider">
+      <parentCategory ref="CRED_PROVIDER_FILTER_SETTINGS" />
+      <supportedOn ref="SUPPORTED_VISTA" />
+      <enabledValue>
+        <string>1</string>
+      </enabledValue>
+      <disabledValue>
+        <string>0</string>
+      </disabledValue>
+    </policy>
+    <policy name="FILTER_SIDD_CRED_PROVIDERS_TITLE" class="Machine" displayName="$(string.FILTER_SIDD_CRED_PROVIDERS_TITLE)" explainText="$(string.FILTER_SIDD_CRED_PROVIDERS_DESCRIPTION)" presentation="$(presentation.FILTER_SIDD_CRED_PROVIDERS_TITLE)" key="SOFTWARE\Policies\RSA\RSA Desktop\Credential Provider Filtering\SIDDCredentialProvider" valueName="ExcludeProvider">
+      <parentCategory ref="CRED_PROVIDER_FILTER_SETTINGS" />
+      <supportedOn ref="SUPPORTED_VISTA" />
+      <enabledValue>
+        <string>1</string>
+      </enabledValue>
+      <disabledValue>
+        <string>0</string>
+      </disabledValue>
+    </policy>
+  </policies>
+</policyDefinitions>

@@ -1,0 +1,35 @@
+﻿<policyDefinitionResources revision="1.0" schemaVersion="1.0">
+  <displayName>
+  </displayName>
+  <description>
+  </description>
+  <resources>
+    <stringTable>
+      <string id="RSA_DESKTOP">RSA Desktop - Shared Components</string>
+      <string id="SUPPORTED_VISTA">Windows 7, Windows Vista, or Windows Server 2008</string>
+      <string id="COMMON_SETTINGS">Common Settings</string>
+      <string id="VERIFY_CODE_SIGNATURE_VALUE_NAME">Verification</string>
+      <string id="VERIFY_CODE_SIGNATURE_TITLE">Verify RSA Shared Components</string>
+      <string id="VERIFY_CODE_SIGNATURE_DESCRIPTION">Controls whether RSA Desktop applications verify the authenticity of shared RSA components.  Verification may impact performance.  
+
+If this policy is Not Configured or Disabled, the authenticity of shared RSA components is verified.  
+
+If this policy is Enabled, then you can set one of the following:
+
+• Verify
+• Do not verify</string>
+      <string id="VERIFY_CODE_SIGNATURE_LABEL">Verify RSA components:</string>
+      <string id="VERIFY_CODE_SIGNATURE_MESSAGE">Select whether to verify or not verify.</string>
+      <string id="VERIFY_CODE_SIGNATURE_VERIFY_OFF">Do Not Verify</string>
+      <string id="VERIFY_CODE_SIGNATURE_VERIFY_ON">Verify</string>
+      <string id="ADMXMigrator_UnresolvedString">ADMX Migrator encountered a string that is not present in the source ADM string table.</string>
+      <string id="ADMXMigrator_NoSupportedOn">ADMX Migrator encountered a policy that does not have a supportedOn value.</string>
+    </stringTable>
+    <presentationTable>
+      <presentation id="VERIFY_CODE_SIGNATURE_TITLE">
+        <text>Select whether to verify or not verify.</text>
+        <dropdownList refId="VERIFY_CODE_SIGNATURE_LABEL" noSort="true" defaultItem="1">Verify RSA components:</dropdownList>
+      </presentation>
+    </presentationTable>
+  </resources>
+</policyDefinitionResources>

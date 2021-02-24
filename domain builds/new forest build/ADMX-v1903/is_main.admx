@@ -1,0 +1,19 @@
+<policyDefinitions revision="1.0" schemaVersion="1.0">
+  <policyNamespaces>
+    <target prefix="jedi" namespace="NG.JEDI" />
+  </policyNamespaces>
+  <resources minRequiredRevision="1.0" />
+  <supportedOn>
+    <definitions>
+      <definition name="SUPPORTED_2008R2Only" displayName="$(string.win2k8only)">
+        <or>
+			<range ref="products:WindowsServer2008" minVersionIndex="1"/>
+			<range ref="products:MicrosoftWindows" minVersionIndex="6"/>
+        </or>
+      </definition>
+    </definitions>
+  </supportedOn>
+  <categories>
+    <category name="JEDI_cat" displayName="$(string.jedi)" />
+  </categories>
+</policyDefinitions>
