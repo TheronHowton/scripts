@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RegistrySettings clsid="{A3CCFC41-DFDB-43a5-8D26-0FE8B954DA51}"><Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="AutoUpdateCheckPeriodMinutes" status="AutoUpdateCheckPeriodMinutes" image="11" changed="2017-09-05 11:57:24" uid="{F7ABD79F-C17E-44F2-B84D-967BAEF5F630}" desc="V-44805" bypassErrors="1"><Properties action="R" displayDecimal="1" default="0" hive="HKEY_LOCAL_MACHINE" key="SOFTWARE\Policies\Google\Update" name="AutoUpdateCheckPeriodMinutes" type="REG_DWORD" value="00000000"/><Filters/></Registry>
-</RegistrySettings>
