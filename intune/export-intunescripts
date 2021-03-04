@@ -1,0 +1,63 @@
+﻿<################################################################################### 
+
+Original script credit to Nicola Suter (https://tech.nicolonsky.ch/view-and-export-uploaded-intune-powershell-scripts/)
+
+Useage:
+Change to the directory the script is in and execute.
+
+Requirements:
+ - Rights granted to a registered app in Azure AD.
+    - https://docs.microsoft.com/en-us/mem/intune/developer/intune-graph-apis#intune-permission-scopes
+ - Intune-PowerShell-SDK installed on machine executing script.
+       - https://github.com/microsoft/Intune-PowerShell-SDK#one-time-setup-powershell-gallery
+ - Admin rights to Azure AD.
+    - At the moment, least privilege is unknown. Investigation underway.
+
+This will perform the following actions:
+    - Authenticates to MSGraph.
+    - Gets details of Intune scripts.
+    - Outputs a CSV of script details and metadata.
+    - Outputs PS1 files for each script obtained.
+
+Modified:
+v1.0 - Theron Howton - 04/20/2020
+    - Modified MS Graph environment to use Azure Gov.
+    - Various clean-up.
+v1.1 - Theron Howton - 04/23//2020
+    - Modified Graph connection code to eliminate errors.
+    - Added Output directory location.
+
+ ###################################################################################>
+
+$date = Get-Date -Format "yyyyMMdd"
+
+# Update Graph to GOV and connect.
+Update-MSGraphEnvironment -AuthUrl 'https://login.microsoftonline.us/common' -GraphBaseUrl 'https://graph.microsoft.us' -GraphResourceId 'https://graph.microsoft.us' -SchemaVersion 'beta'
+Connect-MSGraph | Out-Null
+
+# Get device configuration - PowerShell scripts
+$request = Invoke-MSGraphRequest -HttpMethod GET -Url "deviceManagement/deviceManagementScripts" -Verbose
+
+$allScripts = @()
+
+$request.value.GetEnumerator() | ForEach-Object {
+
+    $currentScript = Invoke-MSGraphRequest -HttpMethod GET -Url "deviceManagement/deviceManagementScripts/$($PSItem.id)"
+    
+    $allScripts += [PSCustomObject]@{
+        id            = $currentScript.id
+        displayName   = $currentScript.displayName
+        description   = $currentScript.description
+        scriptContent = [System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String($currentScript.scriptContent))
+    }
+}
+
+# Check for Outpur directory, create if $false.
+If (!(Test-Path $PSScriptRoot\Output)) { New-Item -ItemType Directory -Path $PSScriptRoot\Output | Out-Null }
+$outputPath = "$PSScriptRoot\Output"
+
+# Export all scripts as PowerShell files to script execution directory
+$allScripts | ForEach-Object { $PSItem.scriptContent | Out-File -FilePath $(Join-Path -Path $outputPath -ChildPath "$($psitem.displayName)-$date.ps1") }
+
+# Export all scripts and metadata within a CSV file to script execution directory
+$allScripts | Export-Csv -Path $(Join-Path -Path $outputPath -ChildPath "Intune-PowerShellScripts-$date.csv") -Delimiter ";" -NoTypeInformation
